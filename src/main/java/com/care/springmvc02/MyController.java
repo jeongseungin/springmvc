@@ -16,9 +16,9 @@ public class MyController {
 	
 	@RequestMapping("result")
 	public String result(Member member,Model model)  {
-		System.out.println("name : " +member.getName());
-		System.out.println("age : " +member.getAge());
-		System.out.println("addr : " +member.getAddr());
+		System.out.println("이름 : " +member.getName());
+		System.out.println("나이 : " +member.getAge());
+		System.out.println("주소 : " +member.getAddr());
 		return "/member03/result";
 	}
 	
